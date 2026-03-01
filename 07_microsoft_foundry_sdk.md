@@ -212,7 +212,7 @@ print(response.choices[0].message.content)
 
 | Class / Method | Purpose |
 |---|---|
-| `AIProjectClient` | Main entry point — connects to a Foundry project |
+| `AIProjectClient` | Main entry point — connects to a Foundry project (**provides a proxy object for a project**)|
 | `AIProjectClient.connections.list()` | List all resource connections in the project |
 | `AIProjectClient.connections.get()` | Get a specific connection with optional credentials |
 | `AIProjectClient.get_openai_client()` | Get an authenticated OpenAI chat client |
@@ -231,7 +231,7 @@ print(response.choices[0].message.content)
 
 | Concept | Key Point |
 |---|---|
-| **AIProjectClient** | The central SDK object; requires project endpoint + credentials |
+| **AIProjectClient** | The central SDK object; requires **project endpoint** + credentials |
 | **Project endpoint** | Found on the project Overview page in Foundry portal |
 | **connections.list()** | Lists all connected resources; filterable by type |
 | **connections.get()** | Returns a named connection with credentials by default |
