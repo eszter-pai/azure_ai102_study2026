@@ -143,7 +143,7 @@
 
 ## 5. Quick Reference
 
-### Lifecycle Stages — One-Line Summary
+### Lifecycle Stages Summary
 
 | Stage | One-Line Summary |
 |---|---|
