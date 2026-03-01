@@ -1,0 +1,1 @@
+this repo stores my study notes and notebooks for AI102 (Azure AI Engineer Associate Certificate)
