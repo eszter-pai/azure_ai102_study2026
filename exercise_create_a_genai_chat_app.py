@@ -1,6 +1,13 @@
 import os
 from dotenv import load_dotenv
-
+# requirement: python-dotenv
+# pip install azure-identity azure-ai-projects openai
+# .env: 
+"""
+PROJECT_ENDPOINT=<paste your Foundry project endpoint here>
+MODEL_DEPLOYMENT=gpt-4o
+"""
+# sign in to run script: az login
 # Add references
 from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
