@@ -1,4 +1,4 @@
-# Module: Build a Copilot with Microsoft Foundry
+# Module: Develop a RAG-based solution with your own data using Microsoft Foundry
 ## Session: RAG Client Application + Implementing RAG in Prompt Flow
 **Sources:**
 - [Create a RAG-based client application](https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/3b-openai-client)

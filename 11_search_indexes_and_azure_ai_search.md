@@ -1,4 +1,4 @@
-# Module: Build a Copilot with Microsoft Foundry
+# Module: Develop a RAG-based solution with your own data using Microsoft Foundry
 ## Session: Make Your Data Searchable — Azure AI Search, Indexes & Vector Search
 **Source:**
 - [Make your data searchable](https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/3-search-data)
