@@ -52,6 +52,8 @@
 - Agents can: answer questions, perform actions, automate workflows
 - Combines **generative AI models** with tools that interact with **real-world data sources**
 -  now achievable in **fewer than 50 lines of code**
+- instructions: system prompt, define prupose, scope, behavioral/restrictions rules.
+- tools: functions, APIs, data sources the agent can call to take actions.
 
 
 ---
