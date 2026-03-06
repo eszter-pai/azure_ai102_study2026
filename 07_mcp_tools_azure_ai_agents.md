@@ -88,6 +88,7 @@ Azure AI Agent (uses tools to respond to user)
 3. **Register** those functions with the agent
 
 Each tool is wrapped in an **async function** (a function that can pause and wait) that invokes `session.call_tool(tool_name, tool_args)`.
+**This enable asynchoronous invocation so the agent can call tools without blockingl.**
 **The wrapped functions** are bundled into `FunctionTool` objects and **added to the agent's toolset**.
 
 ### Full Integration Flow (Client Setup)
@@ -164,7 +165,7 @@ Use `update_headers` to pass:
 
 ---
 
-## 7. MCP Client Setup vs. Foundry MCPTool — Comparison
+## 7. MCP Client Setup vs. Foundry MCPTool
 
 | Approach | When to Use | Key Difference |
 |---|---|---|
